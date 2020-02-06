@@ -1,0 +1,48 @@
+{
+    "machine": "alloy_transformer",
+    "registryName": "alloy_transformer_mirion",
+    "recipeTime": 25,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 6144
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "elementium",
+            "amount": 18
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "terrasteel",
+            "amount": 18
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "manasteel",
+            "amount": 18
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "cobalt",
+            "amount": 18
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "glass",
+            "amount": 125
+        },
+		{
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "mirion",
+            "amount": 72
+        }
+    ]
+}

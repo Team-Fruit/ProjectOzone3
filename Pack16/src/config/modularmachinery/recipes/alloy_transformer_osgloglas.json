@@ -1,0 +1,36 @@
+{
+    "machine": "alloy_transformer",
+    "registryName": "alloy_transformer_osgloglas",
+    "recipeTime": 25,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 6144
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "osmium",
+            "amount": 1
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "refinedobsidian",
+            "amount": 1
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "refinedglowstone",
+            "amount": 1
+        },
+		{
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "osgloglas",
+            "amount": 1
+        }
+    ]
+}
