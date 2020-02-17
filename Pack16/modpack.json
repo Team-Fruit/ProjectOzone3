@@ -6,7 +6,7 @@
   "gameVersion" : "1.12.2",
   "server" : {
     "serverHost" : "teamfruit.net",
-    "serverPort" : 25565
+    "serverPort" : 25519
   },
   "features" : [
     {
