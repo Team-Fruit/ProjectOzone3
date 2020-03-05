@@ -4,6 +4,8 @@ mods.tconstruct.Melting.removeRecipe(<liquid:ender>, <enderio:item_material:28>)
 mods.tconstruct.Melting.removeRecipe(<liquid:ender>, <thermalsolars:itemenderdust>);
 mods.tconstruct.Melting.removeRecipe(<liquid:ender>, <appliedenergistics2:material:46>);
 mods.tconstruct.Melting.removeRecipe(<liquid:ender>, <tp:ender_dust>);
+mods.tconstruct.Melting.removeRecipe(<liquid:tungsten>, <magneticraft:light_plates:5>);
+mods.tconstruct.Melting.addRecipe(<liquid:tungsten> * 144,<magneticraft:light_plates:5>);
 mods.tconstruct.Melting.addRecipe(<liquid:yellorium> * 144,<bigreactors:dustyellorium>);
 mods.tconstruct.Melting.addRecipe(<liquid:yellorium> * 144,<exnihilocreatio:item_ore_yellorium:3>);
 mods.tconstruct.Melting.addRecipe(<liquid:yellorium> * 144,<bigreactors:ingotyellorium>);
@@ -25,11 +27,11 @@ mods.tconstruct.Casting.removeTableRecipe(<avaritia:resource:6>, <liquid:infinit
 
 //basin
 mods.tconstruct.Casting.removeBasinRecipe(<avaritia:block_resource:1>, <liquid:infinity>);
+
 //add casting
-mods.tconstruct.Casting.addTableRecipe(<tcomplement:cast:0>, <ceramics:clay_bucket:0>, <liquid:gold>, 288, true, 40);
-mods.tconstruct.Casting.addTableRecipe(<tcomplement:cast:0>, <ceramics:clay_bucket:0>, <liquid:alubrass>, 144, true, 40);
+mods.tconstruct.Casting.addTableRecipe(<tcomplement:cast:0>, <ceramics:unfired_clay:0>, <liquid:gold>, 288, true, 40);
+mods.tconstruct.Casting.addTableRecipe(<tcomplement:cast:0>, <ceramics:unfired_clay:0>, <liquid:alubrass>, 144, true, 40);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <thermalfoundation:material:23>, <liquid:alubrass>, 144, true, 40);
-mods.tconstruct.Casting.addTableRecipe(<exnihilocreatio:item_material:7>, <thermalfoundation:material:23>, <liquid:alubrass>, 144, true, 40);
 //embers converted recipes
 mods.tconstruct.Alloy.addRecipe(<liquid:dawnstone> * 8, [<liquid:gold> * 4, <liquid:copper> * 4]);
 mods.tconstruct.Melting.addRecipe(<liquid:dawnstone> * 144, <embers:ingot_dawnstone>);

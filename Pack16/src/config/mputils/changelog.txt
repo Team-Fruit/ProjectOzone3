@@ -1,3 +1,60 @@
+3.2.52 Changelog (Always Backup your world before updating and "/bq_admin default load" after updating)
+§6Removed Mods:
+# TickProfiler
+§6Updated Mods:
+# Better Questing
+# Building Gadgets
+# Chance Cubes
+# Corail Tombstone
+# CyclopsCore
+# DarknessLib
+# FTBLib
+# Grue
+# Hammer Core
+# ItemPhysics
+# JourneyMap
+# Modtweaker
+# Overloaded
+# Pneumaticcraft
+# Quark
+# SolarFluxReborn
+# Storage Drawers
+# Tesla Core Lib
+# TConstruct
+# Unidict
+# Wawla
+§6Features:
+# Changed textures of 3 landia blocks
+§6Fixes All modes:
+# Adjusted instantunify and unidict
+# Removed all ExUtils transfer nodes due to potential lag
+# Removed extra steel armors
+# Removed extra lapis armor
+# Removed extra knightslime armor
+# Changed bucket cast recipe
+# Fixed some things with MPUtils
+# Halved the ESM boss kill modifier again because players getting one shot by mobs
+# Turned off Expanded Equivalence Botania config
+# Liveroot can no longer be used with the builder wands
+# Fixed issue with a voidcraft entry in Apotheosis config
+# Fixed recipe dupes involving tungsten and coal
+# Fixed some biometweaker scripts
+§6Fixes Normal mode:
+# 
+§6Fixes Titan mode:
+# Adjusted some recipes to hopefully fix them
+§6Fixes Kappa mode:
+# Changed recipe of overloaded energy core
+§6WTF:
+# Random Things spectre energy nodes cause some energy storages to reset to 0 upon reaching 2.14B
+# FTB chunkloading is off, use chicken chunks
+# Crafting certain extended crafting recipes gets wonky so if it doesn't work take the items out then put them back in or restart the pack
+# OC spamming some error in the logs in first load of a world
+# Waiting for Modular Diversity to update
+§6Notes:
+# Every pack update the packmode config will reset to normal
+§6# Thank you to all of TheCazadorSniper's patrons on Patreon.
+------------------------------------------------------------------
 3.2.51 Changelog (Always Backup your world before updating and "/bq_admin default load" after updating)
 §6Updated Mods:
 # Epic Siege Mod
@@ -79,6 +136,11 @@
 §6# Thank you to all of TheCazadorSniper's patrons on Patreon.
 ------------------------------------------------------------------
 3.2.48 Changelog (Always Backup your world before updating and "/bq_admin default load" after updating)
+§6Removed Mods:
+# Unloader
+# XCPatch
+# Void Craft 
+# TamModized
 §6Updated Mods:
 # AbyssalCraft
 # ArmorPlus
@@ -108,7 +170,6 @@
 # Tombstone
 # Tweakers Construct
 # Waystones
-# Removed Unloader, XCPatch, Void Craft, and TamModized
 §6Features:
 # Added the Arcane Construct
 # Added Alloy Transformer

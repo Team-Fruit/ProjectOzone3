@@ -1,7 +1,6 @@
-#priority 1
+#priority 4
 #packmode titan
 //removed
-recipes.remove(<minecraft:diamond>);
 recipes.remove(<industrialforegoing:mob_duplicator>);
 recipes.remove(<overloaded:fluid_core>);
 recipes.remove(<overloaded:item_core>);
@@ -248,7 +247,7 @@ recipes.addShaped(<mysticalagriculture:crafting:4>, [[null, <ore:essenceSuperium
 recipes.addShaped(<mysticalagriculture:crafting:3>, [[null, <ore:essenceIntermedium>, null],[<ore:essenceIntermedium>, <mysticalagriculture:infusion_crystal:*>, <ore:essenceIntermedium>], [null, <ore:essenceIntermedium>, null]]);
 recipes.addShaped(<mysticalagriculture:crafting:2>, [[null, <ore:essencePrudentium>, null],[<ore:essencePrudentium>, <mysticalagriculture:infusion_crystal:*>, <ore:essencePrudentium>], [null, <ore:essencePrudentium>, null]]);
 recipes.addShaped(<mysticalagriculture:crafting:1>, [[null, <ore:essenceInferium>, null],[<ore:essenceInferium>, <mysticalagriculture:infusion_crystal:*>, <ore:essenceInferium>], [null, <ore:essenceInferium>, null]]);
-recipes.addShaped(<mysticalagriculture:master_infusion_crystal>, [[<lordcraft:shard_magic>, <ore:essenceInsanium>, <lordcraft:shard_magic>],[<ore:essenceInsanium>, <mysticalagriculture:infusion_crystal>, <ore:essenceInsanium>], [<lordcraft:shard_magic>, <ore:essenceInsanium>, <lordcraft:shard_magic>]]);
+recipes.addShaped(<mysticalagriculture:master_infusion_crystal>, [[<lordcraft:shard_magic>, <ore:essenceInsanium>, <lordcraft:shard_magic>],[<ore:essenceInsanium>, <mysticalagriculture:infusion_crystal>.anyDamage(), <ore:essenceInsanium>], [<lordcraft:shard_magic>, <ore:essenceInsanium>, <lordcraft:shard_magic>]]);
 recipes.addShaped(<mysticalagriculture:infusion_crystal>, [[<ore:shardProsperity>, <ore:essenceInsanium>, <ore:shardProsperity>],[<ore:essenceInsanium>, <matc:supremiumcrystal>, <ore:essenceInsanium>], [<ore:shardProsperity>, <ore:essenceInsanium>, <ore:shardProsperity>]]);
 recipes.addShaped(<enderio:item_liquid_conduit> * 8, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
 recipes.addShaped(<enderio:item_endergy_conduit> * 8, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],[<ore:ingotCrudeSteel>, <ore:ingotCrudeSteel>, <ore:ingotCrudeSteel>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);

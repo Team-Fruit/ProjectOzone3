@@ -67,6 +67,7 @@ mods.ltt.LootTable.removeGlobalItem("enderio:item_alloy_ingot");
 mods.ltt.LootTable.removeGlobalItem("enderio:block_exit_rail");
 mods.ltt.LootTable.removeGlobalItem("enderio:item_dark_steel_boots");
 mods.ltt.LootTable.removeGlobalItem("randomthings:spectrecoil_number");
+mods.ltt.LootTable.removeGlobalItem("twilightforest:uncrafting_table");
 
 
 

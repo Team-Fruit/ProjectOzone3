@@ -43261,7 +43261,7 @@
           "ismain:1": 0,
           "repeat_relative:1": 1,
           "name:8": "Coralium Ore",
-          "desc:8": "Consult the Nomicon"
+          "desc:8": "Consult the Nomicon\n\nCan be found in Landia."
         }
       },
       "tasks:9": {
@@ -64935,7 +64935,7 @@
           "partialMatch:1": 0,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
@@ -68714,7 +68714,7 @@
           "partialMatch:1": 0,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {

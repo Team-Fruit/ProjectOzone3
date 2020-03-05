@@ -1,7 +1,7 @@
 {
 	"servers": [
 		{
-			"serverName": "FruitServer",
+			"serverName": "FruitServer Apple",
 			"serverIP": "teamfruit.net:25519"
 		}
 	]

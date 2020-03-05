@@ -63,9 +63,6 @@ silveringot.add(<erebus:materials:45>);
 val tiningot = <ore:ingotTin>;
 tiningot.add(<erebus:materials:46>);
 
-val blizz = <ore:rodBlizz>;
-blizz.add(<netherex:frost_rod>);
-
 val siphon = <ore:siphon>;
 siphon.add(<lordcraft:water_siphon>);
 siphon.add(<lordcraft:earth_siphon>);
@@ -166,6 +163,9 @@ val uranium = <ore:oreUranium>;
 uranium.remove(<exnihilocreatio:item_ore_yellorium:0>);
 uranium.remove(<exnihilocreatio:item_ore_yellorium:1>);
 uranium.remove(<exnihilocreatio:item_ore_yellorium:2>);
+
+val coal = <ore:dustCoal>;
+coal.remove(<tp:tiny_coal>);
 
 val eeingot = <ore:ingotEnderEnhanced>;
 eeingot.add(<extendedcrafting:material:48>);

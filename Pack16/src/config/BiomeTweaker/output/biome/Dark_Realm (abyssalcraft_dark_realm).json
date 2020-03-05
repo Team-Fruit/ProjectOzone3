@@ -48,24 +48,6 @@
       "Weight": 3,
       "Min Group Count": 1,
       "Max Group Count": 1
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-      "Weight": 100,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-      "Weight": 100,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-      "Weight": 100,
-      "Min Group Count": 1,
-      "Max Group Count": 1
     }
   ],
   "Spawnable Water Creatures": [],
